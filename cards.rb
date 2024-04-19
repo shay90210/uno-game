@@ -17,4 +17,8 @@ class Cards
     #def skip_card - card that will skip next player
     def skip_card
     end
+
+    #def draw_two - card that will make the next player draw two cards
+    def draw_two
+    end
 end
