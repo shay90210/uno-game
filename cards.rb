@@ -21,4 +21,8 @@ class Cards
     #def draw_two - card that will make the next player draw two cards
     def draw_two_card
     end
+
+    #def draw_four_card - card that will make next player draw four cards
+    def draw_four_card
+    end
 end
