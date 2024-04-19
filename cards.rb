@@ -25,4 +25,8 @@ class Cards
     #def draw_four_card - card that will make next player draw four cards
     def draw_four_card
     end
+
+    #wild_card - card that can allow current player to choose new color
+    def wild_card
+    end
 end
