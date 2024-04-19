@@ -9,4 +9,8 @@ class Cards
     #def numbered_color_card - card that will need to match color and number
     def numbered_color_card
     end
+
+    #def reverse_card - card that will switch turns to previous player
+    def reverse_card
+    end
 end
