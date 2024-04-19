@@ -13,4 +13,8 @@ class Cards
     #def reverse_card - card that will switch turns to previous player
     def reverse_card
     end
+
+    #def skip_card - card that will skip next player
+    def skip_card
+    end
 end
