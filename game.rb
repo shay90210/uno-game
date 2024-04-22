@@ -1,5 +1,6 @@
 class Game
     def begin_game(player)
+        #introduce player to game and obtain player name
         puts "Welcome to Uno!"
         puts "What is your name?"
         player.name = gets.chomp.capitalize
@@ -7,11 +8,31 @@ class Game
         puts "Welcome #{player.name}!"
         puts "\n"
 
-        puts "Let's start the game!"
-        puts "1. Shuffle Deck"
-        puts "2. Deal Deck"
-        puts "3. Quit"
-        game_option = gets.chomp.to_i
+        loop do
+            #give player options on how to proceed with game
+            puts "Let's start the game!"
+            puts "1. Shuffle Deck"
+            puts "2. Deal Deck"
+            puts "3. Quit"
+
+            #case statement to direct game in play of defined methods
+            game_option = gets.chomp.to_i
+            case game_option
+            when 1
+                shuffle deck
+                break
+            when 2
+                deal_deck
+                break
+            when 3
+                puts "We'll play again next time!"
+                puts "\n"
+                break
+            else
+                puts "\n"
+                puts "Did you mean to choose a number between 1-3? Please choose again."
+            end
+        end
     end
 end
 
