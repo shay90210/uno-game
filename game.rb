@@ -5,5 +5,6 @@ class Game
         puts "Welcome to Uno!"
         puts "What is your name?"
         player_name = gets.chomp
+        puts "\n"
     end
 end
