@@ -1,4 +1,5 @@
-require_relative "cards", "player"
+require_relative "cards"
+require_relative "player"
 
 class Game
     def begin_game
