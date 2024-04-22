@@ -25,8 +25,8 @@ class Game
                 deal_deck
                 break
             when 3
-                puts "We'll play again next time!"
                 puts "\n"
+                puts "We'll play again next time!"
                 break
             else
                 puts "\n"
