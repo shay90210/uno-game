@@ -5,6 +5,7 @@ class Game
         player.name = gets.chomp.capitalize
         puts "\n"
         puts "Welcome #{player.name}!"
+        puts "\n"
 
         puts "Let's start the game!"
         puts "1. Shuffle Deck"
