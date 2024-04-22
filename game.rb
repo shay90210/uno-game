@@ -1,5 +1,7 @@
 require_relative "cards"
 
 class Game
-    puts "Welcome to Uno!"
+    def begin_game
+        puts "Welcome to Uno!"
+    end
 end
