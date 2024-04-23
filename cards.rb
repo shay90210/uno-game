@@ -1,9 +1,10 @@
 class Cards
-    attr_reader :name, :color
+    attr_reader :name, :color, :rank
 
     def initialize
         @name = name
         @color = color
+        @rank = rank
     end
 
     #def numbered_color_card - card that will need to match color and number
