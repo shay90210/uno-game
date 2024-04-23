@@ -19,7 +19,7 @@ class Game
             game_option = gets.chomp.to_i
             case game_option
             when 1
-                shuffle deck
+                shuffle_deck
                 break
             when 2
                 deal_deck
