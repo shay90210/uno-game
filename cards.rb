@@ -5,5 +5,6 @@ class Cards
         @name = name
         @color = color
         @rank = rank
+        @action = action
     end
 end
