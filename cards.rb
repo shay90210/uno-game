@@ -1,5 +1,5 @@
 class Cards
-    attr_reader :name, :color, :rank
+    attr_reader :name, :color, :rank, :action
 
     def initialize
         @name = name
