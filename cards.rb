@@ -6,3 +6,9 @@ class Cards
         @rank = rank
     end
 end
+
+class NumberedCard
+end
+
+class ActionCard
+end
