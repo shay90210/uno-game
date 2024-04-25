@@ -36,5 +36,3 @@ red_seven = NumberedCard.new("red", 7)
 red_eight = NumberedCard.new("red", 8)
 red_nine = NumberedCard.new("red", 9)
 
-#pp red_zero.color
-#pp red_zero.rank
