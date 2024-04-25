@@ -1,13 +1,17 @@
 class Cards
-    attr_accessor :color, :rank
+    attr_accessor :color
 
     def initialize
         @color = color
-        @rank = rank
     end
 end
 
 class NumberedCard
+    attr_accessor :rank
+
+    def initialize
+        @rank = rank
+    end
 end
 
 class ActionCard
