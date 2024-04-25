@@ -15,4 +15,9 @@ class NumberedCard
 end
 
 class ActionCard
+    attr_accessor :action 
+
+    def initialize
+        @action = action 
+    end
 end
