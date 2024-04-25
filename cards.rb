@@ -6,7 +6,7 @@ class Cards
     end
 end
 
-class NumberedCard
+class NumberedCard < Cards
     attr_accessor :rank
 
     def initialize
@@ -14,7 +14,7 @@ class NumberedCard
     end
 end
 
-class ActionCard
+class ActionCard < Cards
     attr_accessor :action 
 
     def initialize
