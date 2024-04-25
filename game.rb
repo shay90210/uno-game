@@ -34,5 +34,13 @@ class Game
             end
         end
     end
+
+    def shuffle_deck
+        puts "SHUFFLE THE CARDS!"
+    end
+
+    def deal_deck
+        puts "DEAL THE CARDS!"
+    end
 end
 
