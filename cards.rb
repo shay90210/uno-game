@@ -25,6 +25,15 @@ class ActionCard < Cards
 end
 
 red_zero = NumberedCard.new("red", 0)
+red_one = NumberedCard.new("red", 1)
+red_two = NumberedCard.new("red", 2)
+red_three = NumberedCard.new("red", 3)
+red_four = NumberedCard.new("red", 4)
+red_five = NumberedCard.new("red", 5)
+red_six = NumberedCard.new("red", 6)
+red_seven = NumberedCard.new("red", 7)
+red_eight = NumberedCard.new("red", 8)
+red_nine = NumberedCard.new("red", 9)
 
 #pp red_zero.color
 #pp red_zero.rank
