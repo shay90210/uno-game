@@ -25,5 +25,6 @@ class ActionCard < Cards
 end
 
 red_zero = NumberedCard.new("red", 0)
-pp red_zero.color
-pp red_zero.rank
+
+#pp red_zero.color
+#pp red_zero.rank
