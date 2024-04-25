@@ -24,6 +24,7 @@ class ActionCard < Cards
     end
 end
 
+#NumberedCards 0-9 in the color red - DATA
 red_zero = NumberedCard.new("red", 0)
 red_one = NumberedCard.new("red", 1)
 red_two = NumberedCard.new("red", 2)
