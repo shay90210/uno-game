@@ -10,7 +10,7 @@ class Card_Deck
     end
 
     def deal_deck
-        
+    
     end
 
     def draw_card
