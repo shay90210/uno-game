@@ -30,7 +30,7 @@ class Card_Deck
                 cards << NumberedCard.new(rank, color)
                 cards << NumberedCard.new(rank, color)
             end
-
+        end
         cards
     end
 end
