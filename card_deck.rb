@@ -1,8 +1,16 @@
 class Card_Deck
+    attr_accessor :cards
+
+    def initialize
+        @cards = generate_uno_deck
+    end
+
     def shuffle_deck
+        @cards.shuffle
     end
 
     def deal_deck
+        @cards.pop
     end
 
     def draw_card
