@@ -4,6 +4,9 @@ class Card_Deck
 
     def deal_deck
     end
+
+    def draw_card
+    end
 end
 
 class Card
