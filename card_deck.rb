@@ -17,6 +17,11 @@ class Card_Deck
         @cards.pop
     end
 
+=begin
+    << = shovel operator: This symbol appends elements into an array
+    added empty cards array as the cards will need to be stored somewhere once the generate_uno_deck function is called
+    (0..9) = represents each number that will be iterated on the card (range literal)
+=end
     def generate_uno_deck
         cards = []
 
@@ -24,6 +29,8 @@ class Card_Deck
             ["red", "green", "yellow", "blue"].each do |color|
                 cards << NumberedCard.new(rank, color)
                 cards << NumberedCard.new(rank, color)
+
+        cards
     end
 end
 
