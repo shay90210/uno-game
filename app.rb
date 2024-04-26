@@ -6,7 +6,5 @@ game = Game.new
 player = Player.new
 card_deck = Card_Deck.new
 
-card_deck.shuffle_deck
-
-game.begin_game(player)
+game.begin_game(player, card_deck)
 

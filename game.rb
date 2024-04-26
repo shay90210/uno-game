@@ -1,5 +1,5 @@
 class Game
-    def begin_game(player)
+    def begin_game(player, card_deck)
         #introduce player to game and obtain player name
         puts "Welcome to Uno!"
         puts "What is your name?"
