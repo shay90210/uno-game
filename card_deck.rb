@@ -18,6 +18,12 @@ class Card_Deck
     end
 
     def generate_uno_deck
+        cards = []
+
+        (0..9).each do |rank|
+            ["red", "green", "yellow", "blue"].each do |color|
+                cards << NumberedCard.new(rank, color)
+                cards << NumberedCard.new(rank, color)
     end
 end
 
