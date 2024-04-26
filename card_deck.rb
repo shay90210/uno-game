@@ -29,6 +29,7 @@ class Card_Deck
             ["red", "green", "yellow", "blue"].each do |color|
                 cards << NumberedCard.new(rank, color)
                 cards << NumberedCard.new(rank, color)
+            end
 
         cards
     end
