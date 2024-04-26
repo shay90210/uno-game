@@ -19,10 +19,10 @@ class Game
             game_option = gets.chomp.to_i
             case game_option
             when 1
-                shuffle_deck
+                card_deck.shuffle_deck
                 break
             when 2
-                deal_deck
+                card_deck.deal_deck
                 break
             when 3
                 puts "\n"
@@ -33,14 +33,6 @@ class Game
                 puts "Did you mean to choose a number between 1-3? Please choose again."
             end
         end
-    end
-
-    def shuffle_deck
-        puts "SHUFFLE THE CARDS!"
-    end
-
-    def deal_deck
-        puts "DEAL THE CARDS!"
     end
 end
 
