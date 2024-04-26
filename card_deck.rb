@@ -6,7 +6,7 @@ class Card_Deck
     end
 
     def shuffle_deck
-        @cards.shuffle
+       #@cards.shuffle
     end
 
     def deal_deck
@@ -14,7 +14,7 @@ class Card_Deck
     end
 
     def draw_card
-        @cards.pop
+        #@cards.pop
     end
 
 =begin
