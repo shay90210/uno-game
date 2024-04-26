@@ -7,6 +7,7 @@ class Card_Deck
 
     def shuffle_deck
        #@cards.shuffle
+       puts "SHUFFLE THE DECK!"
     end
 
     def deal_deck
@@ -15,6 +16,7 @@ class Card_Deck
 
     def draw_card
         #@cards.pop
+        puts "DRAW A CARD!"
     end
 
 =begin
