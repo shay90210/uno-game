@@ -10,10 +10,11 @@ class Card_Deck
     end
 
     def deal_deck
-        @cards.pop
+        
     end
 
     def draw_card
+        @cards.pop
     end
 end
 
