@@ -16,6 +16,9 @@ class Card_Deck
     def draw_card
         @cards.pop
     end
+
+    def generate_uno_deck
+    end
 end
 
 class Card
