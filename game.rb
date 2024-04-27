@@ -3,7 +3,9 @@ class Game
         #introduce player to game and obtain player name
         puts "Welcome to Uno!"
         puts "What is your name?"
+
         player.name = gets.chomp.capitalize
+        
         puts "\n"
         puts "Welcome #{player.name}!"
         puts "\n"
