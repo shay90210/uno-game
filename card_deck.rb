@@ -8,7 +8,7 @@ class Card_Deck
     def shuffle_deck
        @cards.shuffle
        #print cards
-       print cards.length
+       #print cards.length
        #puts "SHUFFLE THE DECK!"
     end
 
