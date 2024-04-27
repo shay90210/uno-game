@@ -7,7 +7,7 @@ class Card_Deck
 
     def shuffle_deck
        @cards.shuffle
-       puts cards
+       print cards
        #puts "SHUFFLE THE DECK!"
     end
 
