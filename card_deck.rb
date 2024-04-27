@@ -6,7 +6,7 @@ class Card_Deck
     end
 
     def shuffle_deck
-       #@cards.shuffle
+       @cards.shuffle
        #puts "SHUFFLE THE DECK!"
     end
 
