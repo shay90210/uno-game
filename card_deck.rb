@@ -66,4 +66,9 @@ class ActionCard < Card
 end
 
 class WildCard < Card
+    attr_accessor :action
+
+    def initialize(action)
+        @action = action
+    end
 end
