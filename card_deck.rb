@@ -73,7 +73,8 @@ end
 class WildCard < Card
     attr_accessor :action
 
-    def initialize(action)
+    def initialize(color, action)
+        super(color)
         @action = action
     end
 end
