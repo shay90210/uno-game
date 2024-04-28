@@ -7,7 +7,7 @@ class Card_Deck
 
     def shuffle_deck
        @cards.shuffle
-       #print cards
+       print cards
        #print cards.length
        #puts "SHUFFLE THE DECK!"
     end
@@ -41,6 +41,8 @@ class Card_Deck
                 ["red", "green", "yellow", "blue"].each do |color|
                     cards << ActionCard.new(color, action)
                     cards << ActionCard.new(color, action)
+                end
+            end
         cards
     end
 end
