@@ -40,6 +40,7 @@ class Card_Deck
             actions.each do |action|
                 ["red", "green", "yellow", "blue"].each do |color|
                     cards << ActionCard.new(color, action)
+                    cards << ActionCard.new(color, action)
         cards
     end
 end
