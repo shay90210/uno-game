@@ -64,3 +64,6 @@ class ActionCard < Card
         @action = action 
     end
 end
+
+class WildCard < Card
+end
