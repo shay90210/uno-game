@@ -20,6 +20,7 @@ class Card_Deck
 
     def draw_card
         # code will need to have the player pick one card a time
+        # when player draws the card; the player can decide if they can play the card or not
         #@cards.pop
         puts "DRAW A CARD!"
     end
