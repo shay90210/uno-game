@@ -13,6 +13,7 @@ class Card_Deck
     end
 
     def deal_deck
+        # Code will need to show cards being dealt to players - can be cards distributed at once or one by one
         puts "DEAL THE DECK!"
     end
 
