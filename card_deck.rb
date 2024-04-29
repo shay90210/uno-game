@@ -19,6 +19,7 @@ class Card_Deck
     end
 
     def draw_card
+        # code will need to have the player pick one card a time
         #@cards.pop
         puts "DRAW A CARD!"
     end
