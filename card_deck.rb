@@ -7,9 +7,9 @@ class Card_Deck
 
     def shuffle_deck
         # once the cards are shuffled - see if there is a way to stack cards or confirm that the deck is ready
-       @cards.shuffle
+       @cards.shuffle_deck
        #print cards
-       #print cards.length
+       print cards.length
        #puts "SHUFFLE THE DECK!"
     end
 
@@ -42,14 +42,14 @@ class Card_Deck
             end
         end
 
-        actions = ["Draw Two", "Reverse", "Skip"]
+=begin    actions = ["Draw Two", "Reverse", "Skip"]
             actions.each do |action|
                 ["red", "green", "yellow", "blue"].each do |color|
                     cards << ActionCard.new(color, action)
                     cards << ActionCard.new(color, action)
                 end
             end
-        cards
+=end          cards
     end
 end
 
