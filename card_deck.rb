@@ -43,6 +43,7 @@ class Card_Deck
         ["red", "green", "yellow", "blue"]. each do |color|
                 cards << NumberedCard.new(0, color)
         end
+        
         actions = ["Draw Two", "Reverse", "Skip"]
             actions.each do |action|
                 ["red", "green", "yellow", "blue"].each do |color|
