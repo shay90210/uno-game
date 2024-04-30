@@ -8,8 +8,8 @@ class Card_Deck
     def shuffle_deck
        # once the cards are shuffled - see if there is a way to stack cards or confirm that the deck is ready
        @cards.shuffle
-       print cards
-       #print @cards.length
+       #print cards
+       print @cards.length
        #puts "SHUFFLE THE DECK!"
     end
 
@@ -34,20 +34,15 @@ class Card_Deck
     def generate_uno_deck
         cards = []
 
-        (0..9).each do |rank|
+        (1..9).each do |rank|
             ["red", "green", "yellow", "blue"].each do |color|
                 cards << NumberedCard.new(rank, color)
                 cards << NumberedCard.new(rank, color)
             end
         end
-
-        actions = ["Draw Two", "Reverse", "Skip"]
-            actions.each do |action|
-                ["red", "green", "yellow", "blue"].each do |color|
-                    cards << ActionCard.new(color, action)
-                    cards << ActionCard.new(color, action)
-                end
-            end
+        ["red", "green", "yellow", "blue"]. each do |color|
+                cards << NumberedCard.new(0, color)
+        end
         cards
     end
 end
