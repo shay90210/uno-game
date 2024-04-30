@@ -22,6 +22,7 @@ class Game
             case game_option
             when 1
                 card_deck.shuffle_deck
+                print card_deck.cards
                 break
             when 2
                 card_deck.deal_deck

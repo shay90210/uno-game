@@ -7,7 +7,7 @@ class Card_Deck
 
     def shuffle_deck
        # once the cards are shuffled - see if there is a way to stack cards or confirm that the deck is ready
-       #@cards.shuffle
+       @cards.shuffle
        #print cards
        #print @cards.length
        #puts "SHUFFLE THE DECK!"
@@ -49,7 +49,7 @@ class Card_Deck
                     cards << ActionCard.new(color, action)
                 end
             end
-=end          cards
+=end    cards
     end
 end
 
