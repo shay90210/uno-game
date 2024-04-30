@@ -27,9 +27,9 @@ class Card_Deck
         puts "DRAW A CARD!"
     end
 
-    #<< = shovel operator: This symbol appends elements into an array
-    #added empty cards array as the cards will need to be stored somewhere once the generate_uno_deck function is called
-    #(0..9) = represents each number that will be iterated on the card (range literal)
+        #<< = shovel operator: This symbol appends elements into an array
+        #added empty cards array as the cards will need to be stored somewhere once the generate_uno_deck function is called
+        #(0..9) = represents each number that will be iterated on the card (range literal)
 
     def generate_uno_deck
         cards = []
@@ -43,7 +43,7 @@ class Card_Deck
         ["red", "green", "yellow", "blue"]. each do |color|
                 cards << NumberedCard.new(0, color)
         end
-        
+
         actions = ["Draw Two", "Reverse", "Skip"]
             actions.each do |action|
                 ["red", "green", "yellow", "blue"].each do |color|
