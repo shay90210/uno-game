@@ -6,10 +6,10 @@ class Card_Deck
     end
 
     def shuffle_deck
-        # once the cards are shuffled - see if there is a way to stack cards or confirm that the deck is ready
-       @cards.shuffle_deck
+       # once the cards are shuffled - see if there is a way to stack cards or confirm that the deck is ready
+       #@cards.shuffle
        #print cards
-       print cards.length
+       print @cards.length
        #puts "SHUFFLE THE DECK!"
     end
 
