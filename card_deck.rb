@@ -56,6 +56,7 @@ class Card_Deck
         4.times do
             wild_cards << Card.new("Wild", nil)
         end
+        
         cards += wild_cards
         cards
     end
