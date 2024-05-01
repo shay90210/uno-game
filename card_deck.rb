@@ -51,6 +51,8 @@ class Card_Deck
                     cards << ActionCard.new(color, action)
                 end
             end
+
+        wild_cards = []
         cards
     end
 end
