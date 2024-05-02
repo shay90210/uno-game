@@ -25,6 +25,7 @@ class Card_Deck
         else
           drawn_card = cards.shuffle!.pop
           cards.delete(drawn_card)
+          return drawn_card
         
     end
 
