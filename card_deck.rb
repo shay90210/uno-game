@@ -23,7 +23,9 @@ class Card_Deck
         if cards.empty?
             puts "Card deck is empty. There are no cards to draw!"
         else
-          drawn_card = cards.shuffle!.pop  
+          drawn_card = cards.shuffle!.pop
+          cards.delete(drawn_card)
+        
     end
 
         #<< = shovel operator: This symbol appends elements into an array
