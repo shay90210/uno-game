@@ -20,7 +20,10 @@ class Card_Deck
     end
 
     def draw_card
-
+        if cards.empty?
+            puts "Card deck is empty. There are no cards to draw!"
+        else
+            
         #@cards.pop
         puts "DRAW A CARD!"
     end
