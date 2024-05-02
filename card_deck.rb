@@ -24,7 +24,6 @@ class Card_Deck
             puts "Card deck is empty. There are no cards to draw!"
         else
           drawn_card = cards.shuffle!.pop  
-        #@cards.pop
         puts "DRAW A CARD!"
     end
 
