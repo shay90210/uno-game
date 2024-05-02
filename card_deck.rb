@@ -10,7 +10,6 @@ class Card_Deck
        @cards.shuffle
        #print cards
        print @cards.length
-       #puts "SHUFFLE THE DECK!"
     end
 
     def deal_deck
