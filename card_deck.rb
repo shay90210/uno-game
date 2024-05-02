@@ -20,9 +20,7 @@ class Card_Deck
     end
 
     def draw_card
-        # code will need to have the player pick one card a time
-        # when player draws the card; the player can decide if they can play the card or not; will continue to draw one by one
-        # boolean will need to be added if the card is not a mathc and the player is denied to play the card
+
         #@cards.pop
         puts "DRAW A CARD!"
     end
