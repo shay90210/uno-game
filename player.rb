@@ -10,8 +10,10 @@ class Player
     
     def get_player_name
         puts "Hello. What is your name?"
+        puts "\n"
         player_name = gets.chomp.capitalize
-        puts "Welcome to Uno #{self.player_name}!"
+        puts "\n"
+        puts "Welcome to Uno #{player_name}!"
     end
 
     def get_hand_size

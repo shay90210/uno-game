@@ -1,14 +1,7 @@
 class Game
     def begin_game(player, card_deck)
         #introduce player to game and obtain player name
-        puts "Welcome to Uno!"
-        puts "What is your name?"
-
-        player.name = gets.chomp.capitalize
-        
-        puts "\n"
-        puts "Welcome #{player.name}!"
-        puts "\n"
+        player.get_player_name
 
         loop do
             #give player options on how to proceed with game
