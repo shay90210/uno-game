@@ -8,6 +8,10 @@ class Player
         @score = 0
     end
 
+    def get_hand_size
+        @hand.size 
+    end
+
     def get_score
         @score
     end
