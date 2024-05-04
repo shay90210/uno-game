@@ -13,7 +13,7 @@ class Player
         puts "\n"
         player_name = gets.chomp.capitalize
         puts "\n"
-        puts "Welcome to Uno #{player_name}!"
+        puts "Welcome to Uno, #{player_name}!"
     end
 
     def get_hand_size
