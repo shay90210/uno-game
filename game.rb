@@ -12,6 +12,7 @@ class Game
 
             #case statement to direct game in play of defined methods
             game_option = gets.chomp.to_i
+            puts "\n"
             case game_option
             when 1
                 card_deck.shuffle_deck
