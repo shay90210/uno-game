@@ -7,4 +7,8 @@ class Player
         @hand = []
         @score = 0
     end
+
+    def get_score
+        @score
+    end
 end
