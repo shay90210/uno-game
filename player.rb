@@ -20,6 +20,10 @@ class Player
         @hand.size 
     end
 
+    def play_card(card)
+        @hand.delete(card)
+    end
+
     def get_score
         @score
     end
