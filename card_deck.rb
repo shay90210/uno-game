@@ -24,6 +24,7 @@ class Card_Deck
           drawn_card = cards.shuffle!.pop
           cards.delete(drawn_card)
           return drawn_card
+        end
     end
 
         #<< = shovel operator: This symbol appends elements into an array
