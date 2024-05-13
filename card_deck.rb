@@ -13,6 +13,7 @@ class Card_Deck
 
     def deal_deck
         # Code will need to show cards being dealt to players - can be cards distributed at once or one by one
+        # Code should include checking if there are players and if there are cards. If there are none, then error should cancel out the game or loop back.
         # Figure out the steps in which the deck will need to be shuffled then deal
         puts "DEAL THE DECK!"
     end
