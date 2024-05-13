@@ -19,6 +19,10 @@ class Card_Deck
             puts "Add a player or deal some more cards!"
             return
         end
+
+        shuffle_deck
+
+        
     end
 
     def draw_card
