@@ -16,7 +16,8 @@ class Player
         puts "Welcome to Uno, #{player_name}!"
     end
 
-    def add_card
+    def add_card(card)
+        @hand << card
     end
 
     def get_hand_size
