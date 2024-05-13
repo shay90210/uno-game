@@ -16,6 +16,7 @@ class Card_Deck
         # Code should include checking if there are players and if there are cards. If there are none, then error should cancel out the game or loop back.
         # Figure out the steps in which the deck will need to be shuffled then deal
         if player.empty? || number_of_cards <= 0
+            puts "Add a player or deal some more cards! "
     end
 
     def draw_card
