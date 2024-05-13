@@ -11,6 +11,7 @@ class Player
     def get_player_name
         puts "Hello. What is your name?"
         player_name = gets.chomp.capitalize
+        puts "\n"
         puts "Welcome to Uno, #{player_name}!"
     end
 
