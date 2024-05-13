@@ -17,6 +17,7 @@ class Card_Deck
         # Figure out the steps in which the deck will need to be shuffled then deal
         if player.empty? || number_of_cards <= 0
             puts "Add a player or deal some more cards!"
+            return
     end
 
     def draw_card
