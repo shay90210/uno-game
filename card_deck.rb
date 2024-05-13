@@ -18,6 +18,7 @@ class Card_Deck
         if player.empty? || number_of_cards <= 0
             puts "Add a player or deal some more cards!"
             return
+        end
     end
 
     def draw_card
