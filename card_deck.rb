@@ -11,6 +11,16 @@ class Card_Deck
        print @cards.length
     end
 
+    def draw_card
+        if cards.empty?
+            puts "Card deck is empty. There are no cards to draw!"
+        else
+          drawn_card = cards.shuffle!.pop
+          cards.delete(drawn_card)
+          return drawn_card
+        end
+    end
+
     def deal_deck(players, number_of_cards)
         # Code will need to show cards being dealt to players - can be cards distributed at once or one by one
         # Code should include checking if there are players and if there are cards. If there are none, then error should cancel out the game or loop back.
@@ -26,16 +36,6 @@ class Card_Deck
             number_of_cards.times do 
                 player.add_card(cards.pop)
             end
-        end
-    end
-
-    def draw_card
-        if cards.empty?
-            puts "Card deck is empty. There are no cards to draw!"
-        else
-          drawn_card = cards.shuffle!.pop
-          cards.delete(drawn_card)
-          return drawn_card
         end
     end
 
