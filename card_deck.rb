@@ -22,7 +22,11 @@ class Card_Deck
 
         shuffle_deck
 
-
+        players.each do |player|
+            number_of_cards.times do 
+                player.add_card(cards.pop)
+            end
+        end
     end
 
     def draw_card
