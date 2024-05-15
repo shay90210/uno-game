@@ -21,10 +21,10 @@ class Card_Deck
         end
     end
 
+    # Code will need to show cards being dealt to players - can be cards distributed at once or one by one
+    # Code should include checking if there are players and if there are cards. If there are none, then error should cancel out the game or loop back.
+    # Figure out the steps in which the deck will need to be shuffled then deal
     def deal_deck
-        # Code will need to show cards being dealt to players - can be cards distributed at once or one by one
-        # Code should include checking if there are players and if there are cards. If there are none, then error should cancel out the game or loop back.
-        # Figure out the steps in which the deck will need to be shuffled then deal
         shuffle_deck
 
         players.each do |player|
