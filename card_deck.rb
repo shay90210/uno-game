@@ -26,7 +26,6 @@ class Card_Deck
     # Figure out the steps in which the deck will need to be shuffled then deal
     def deal_deck
         #shuffle_deck
-
     end
 
         #<< = shovel operator: This symbol appends elements into an array
