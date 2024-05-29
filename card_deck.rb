@@ -25,13 +25,8 @@ class Card_Deck
     # Code should include checking if there are players and if there are cards. If there are none, then error should cancel out the game or loop back.
     # Figure out the steps in which the deck will need to be shuffled then deal
     def deal_deck
-        shuffle_deck
+        #shuffle_deck
 
-        players.each do |player|
-            number_of_cards.times do 
-                player.add_card(cards.pop)
-            end
-        end
     end
 
         #<< = shovel operator: This symbol appends elements into an array
